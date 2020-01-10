@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbf550e9-b624-489f-83eb-ed058162342a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Item/collection-item.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shop/shop-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shop/shop.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shop/shop.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.component.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,29 +27,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/shop/shop.component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/menu-item/menu-item.component.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Item/collection-item.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/homepage/homepage.component.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="119">
+              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -52,9 +52,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Item/collection-item.styles.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/directory/directory.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-369">
+            <state relative-caret-position="-554">
               <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -82,15 +99,25 @@
         <option value="$PROJECT_DIR$/src/components/homepage/homepage.component.js" />
         <option value="$PROJECT_DIR$/src/pages/homepage/homepage.styles.scss" />
         <option value="$PROJECT_DIR$/src/components/directory/directory.styles.scss" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/components/menu-item/hover-styles.scss" />
         <option value="$PROJECT_DIR$/src/components/menu-item/menu-item.styles.scss" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/homepage/homepage.component.js" />
         <option value="$PROJECT_DIR$/src/components/directory/directory.component.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/menu-item/menu-item.component.js" />
+        <option value="$PROJECT_DIR$/src/pages/shop/shop-data.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/manifest.json" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/pages/homepage/homepage.component.js" />
+        <option value="$PROJECT_DIR$/src/components/Item/item.styles.scss" />
+        <option value="$PROJECT_DIR$/src/components/Item/item.component.js" />
+        <option value="$PROJECT_DIR$/src/components/preview-collection/preview-collection.styles.scss" />
+        <option value="$PROJECT_DIR$/src/components/preview-collection/preview-collection.component.js" />
+        <option value="$PROJECT_DIR$/src/components/preview-collection/collection-preview.component.js" />
+        <option value="$PROJECT_DIR$/src/pages/shop/shop.component.js" />
+        <option value="$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.js" />
+        <option value="$PROJECT_DIR$/src/components/Item/collection-item.component.js" />
       </list>
     </option>
   </component>
@@ -135,20 +162,20 @@
               <item name="e-commerce" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="menu-item" type="462c0819:PsiDirectoryNode" />
+              <item name="collection-preview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e-commerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e-commerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Item" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e-commerce" type="b2602c69:ProjectViewProjectNode" />
               <item name="e-commerce" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e-commerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e-commerce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="homepage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -159,7 +186,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/menu-item" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/collection-preview" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -173,10 +200,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Master\WebstormProjects\e-commerce\src\components\collection-preview" />
+      <recent name="C:\Users\Master\WebstormProjects\e-commerce\src\components\preview-collection" />
       <recent name="C:\Users\Master\WebstormProjects\e-commerce\src\components\menu-item" />
       <recent name="C:\Users\Master\WebstormProjects\e-commerce\src\components\homepage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Master\WebstormProjects\e-commerce\src\components\Item" />
       <recent name="C:\Users\Master\WebstormProjects\e-commerce\src\pages" />
       <recent name="C:\Users\Master\WebstormProjects\e-commerce\src\components\homepage" />
     </key>
@@ -218,12 +248,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578569659685</updated>
-      <workItem from="1578569661760" duration="9062000" />
+      <workItem from="1578569661760" duration="15495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9062000" />
+    <option name="totallyTimeSpent" value="15495000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -236,7 +266,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3285968" />
@@ -271,6 +301,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.js</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Downloads/complete-react-developer-zero-to-mastery/04 Master Project Setting Up E-commerce Project/062 directory.data.js">
@@ -321,33 +363,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$USER_HOME$/Downloads/complete-react-developer-zero-to-mastery/06 Master Project Forms  Components/069 shop.data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="111" selection-start-line="17" selection-start-column="111" selection-end-line="17" selection-end-column="111" />
+        <state>
+          <caret selection-end-line="249" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/public/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/homepage/homepage.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/homepage/homepage.component.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Item/item.styles.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/menu-item/menu-item.component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        <state relative-caret-position="41">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/shop/shop.styles.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/directory/directory.component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-369">
+        <state relative-caret-position="-554">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
@@ -355,10 +430,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/menu-item/menu-item.component.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/shop/shop-data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/collection-preview/collection-preview.styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/collection-preview/collection-preview.styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/shop/shop.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Item/collection-item.styles.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Item/collection-item.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
