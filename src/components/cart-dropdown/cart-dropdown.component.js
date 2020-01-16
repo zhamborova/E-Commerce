@@ -2,13 +2,15 @@ import React from 'react';
 import './cart-dropdown.styles.scss'
 import CustomButton from "../custom-button/custom-button.component";
 import {connect} from "react-redux";
+import CartItem from "../cart-item/cart-item.component";
+import {selectCartItems} from "../../redux/cart/cart.selectors";
 
 
 const CartDropDown = (props) => (
   <div className='cart-dropdown'>
      <div className='cart-items' >
          {props.cartItems.map(item=>(
-             <img src={item.imageUrl}/>
+            <CartItem key={item.id} item={item}/>
          ))}
      </div>
       <CustomButton>GO TO CHECKOUT</CustomButton>
@@ -16,6 +18,6 @@ const CartDropDown = (props) => (
 );
 
 const mapStateToProps = (state) => ({
-    cartItems: state.cart.cartItems
+    cartItems: selectCartItems(state)
 });
 export default connect(mapStateToProps)(CartDropDown);
