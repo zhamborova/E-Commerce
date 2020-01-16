@@ -1,7 +1,22 @@
 import {CartActionTypes} from "./cart.types";
 
-export const hideOrShowCart = () => {
+export const toggleCart = () => {
     return {
-        type: CartActionTypes.SHOW_OR_HIDE_CART
+        type: CartActionTypes.TOGGLE_CART
     }
 };
+
+export const addItem = (item) => {
+  return {
+      type: CartActionTypes.ADD_ITEM,
+      payload: item
+  }
+};
+
+export const removeItem = (item) => {
+    return {
+        type: CartActionTypes.REMOVE_ITEM,
+        payload: item
+    }
+};
+

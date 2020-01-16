@@ -1,3 +1,5 @@
 export const CartActionTypes = {
-    SHOW_OR_HIDE_CART: ' SHOW_OR_HIDE_CART'
+    TOGGLE_CART: 'TOGGLE_CART',
+    ADD_ITEM:'ADD_ITEM',
+    REMOVE_ITEM:'REMOVE_ITEM'
 };
