@@ -1,11 +1,12 @@
 import React from 'react';
-import CollectionItem from "../Item/collection-item.component";
+import CollectionItem from "../collection-item/collection-item.component";
 import './collection-preview.styles.scss'
 
-const PreviewCollection=({title, items})=>{
+
+const CollectionPreview=({title, items, routeName,history, match})=>{
     return(
         <div className='collection-preview'>
-        <h1 className='title'>{title.toUpperCase()}</h1>
+        <h1 onClick={ () => {history.push(`${match.path}/${routeName}`)}} className='title'>{title.toUpperCase()}</h1>
         <div className='preview'>
         {items.slice(0,4).map((item) => {
         return <CollectionItem key={item.id} item={item}/>})}
@@ -13,4 +14,4 @@ const PreviewCollection=({title, items})=>{
         </div>
     )};
 
-export default PreviewCollection;
+export default CollectionPreview;

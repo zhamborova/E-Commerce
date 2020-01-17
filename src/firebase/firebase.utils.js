@@ -18,7 +18,7 @@ export const createUserProfileDocument = async (userAuth, ...otherData) => {
    console.log(userAuth);
    //get the reference to the place of the user whether he exists or not
   const userRef = firestore.doc(`users/${userAuth.uid}`);
-  //fetch the data
+  //fetch the collections
   const snapShot = await userRef.get();
   //check whether user exists, if not add
   if(!snapShot.exists) {

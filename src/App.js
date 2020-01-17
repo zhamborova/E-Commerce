@@ -11,6 +11,7 @@ import {setCurrentUser} from "./redux/user/user.action";
 import {selectCurrentUser} from "./redux/user/user.selectors";
 import {createStructuredSelector} from "reselect";
 import CheckoutPage from "./pages/checkout/checkout.component";
+import Collection from "./pages/collection/collection.component";
 
 
 class App extends React.Component{
@@ -25,7 +26,7 @@ unsubscribeFromAuth = null;
         userRef.onSnapshot(snapshot => {
             setCurrentUser({
                    id:snapshot.id,
-                ...snapshot.data()
+                ...snapshot.collections()
             })
          })
        }
