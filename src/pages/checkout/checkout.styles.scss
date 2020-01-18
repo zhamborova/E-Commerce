@@ -6,6 +6,18 @@
   align-items: center;
   margin: 50px auto 0;
 
+
+  .warning{
+    text-align: center;
+    margin-top:20px;
+    font-size: 24px;
+    color:red;
+
+  }
+  button{
+    margin-left:auto;
+    margin-top: 40px;
+  }
   .checkout-header {
     width: 100%;
     padding: 10px 0;
