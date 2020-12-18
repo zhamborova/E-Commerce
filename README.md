@@ -1,4 +1,4 @@
-# Clean Up
+# Crown Shop
 
 A demo shop website created with React/Node/Firebase
 
